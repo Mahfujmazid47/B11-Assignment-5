@@ -50,12 +50,5 @@ for (let i = 0; i < btns.length; i++) {
 
         newElement.classList.add('bg-[#F4F7FF]', 'p-2', 'rounded-lg', 'mb-3', 'remove');
 
-        // newElement.style.display = 'block';
-        // newElement.style.marginBottom = '15px';
     })
 }
-
-// document.getElementsByClassName('complete-btn')
-//     .addEventListener('click', function () {
-//         for
-//     })
