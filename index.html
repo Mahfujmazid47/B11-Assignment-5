@@ -39,7 +39,7 @@
             <div class="flex gap-6 items-center">
                 <div class="flex gap-2 py-2 px-4 items-center bg-[#F4F7FF] rounded-full">
                     <img class="w-5 h-5" src="assets/checkbox.png" alt="">
-                    <h1 class="font-bold text-xl">23</h1>
+                    <h1 id="task-done" class="font-bold text-xl">23</h1>
                 </div>
                 <button>
                     <img id="bg-img" class="w-6" src="assets/theme-btn.png" alt="">
@@ -67,7 +67,7 @@
                             </div>
                             <div>
                                 <small class="font-medium text-[#00303C]">Task Assingment</small>
-                                <h1 class="font-bold text-xl">05</h1>
+                                <h1 id="task" class="font-bold text-xl">6</h1>
                             </div>
                         </div>
 
@@ -84,24 +84,23 @@
                                 <img class="w-5 h-5" src="assets/calender.png" alt="">
                             </div>
                             <div>
-                                <p class="font-medium text-[#00303C]">Wed , <br> <span class="font-bold">Jul 28
+                                <p id="time" class="font-medium text-[#00303C]">Wed , <br> <span class="font-bold">Jul 28
                                         2025</span>
                                 </p>
 
                             </div>
                         </div>
                     </div>
-                    <!-- Upper section end  -->
+                    
 
                     <!-- Cards section start  -->
                     <div class="grid grid-cols-1 lg:grid-cols-3 p-5 gap-3">
 
                         <!-- Card 1 -->
-                        <div class="bg-[#F4F7FF] rounded-lg p-4 space-y-4">
+                        <div  class=" div-container bg-[#F4F7FF] rounded-lg p-4 space-y-4">
                             <p class="py-2 px-3 text-sm bg-white w-24 rounded-lg">ShopEase</p>
                             <h1 class="font-medium text-2xl">Fix Mobile Button Issue </h1>
-                            <p class="bg-white rounded-lg p-3 text-gray-500">Debug using Chrome DevTools,<br> check for
-                                overlapping elements</p>
+                            <p class="bg-white rounded-lg p-3 text-gray-500">To fix the mobile button issue, update the CSS, check media queries, and test responsiveness.</p>
 
                             <div class=" border-t-2 border-dashed"></div>
 
@@ -112,16 +111,15 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button class="btn complete-btn bg-[#3752FD] text-white ">Completed</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 1 -->
-                        <div class="bg-[#F4F7FF] rounded-lg p-4 space-y-4">
-                            <p class="py-2 px-3 text-sm bg-white w-24 rounded-lg">ShopEase</p>
-                            <h1 class="font-medium text-2xl">Fix Mobile Button Issue </h1>
-                            <p class="bg-white rounded-lg p-3 text-gray-500">Debug using Chrome DevTools,<br> check for
-                                overlapping elements</p>
+                        <!-- Card 2 -->
+                        <div class="div-container bg-[#F4F7FF] rounded-lg p-4 space-y-4">
+                            <p class="py-2 px-3 text-sm bg-white w-24 rounded-lg">CloudSync</p>
+                            <h1 class="font-medium text-2xl">Add Dark Mode</h1>
+                            <p class="bg-white rounded-lg p-3 text-gray-500">To add dark mode, implement a toggle button, adjust CSS variables, and store user preference.</p>
 
                             <div class=" border-t-2 border-dashed"></div>
 
@@ -132,16 +130,15 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button class="btn complete-btn bg-[#3752FD] text-white ">Completed</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 1 -->
-                        <div class="bg-[#F4F7FF] rounded-lg p-4 space-y-4">
-                            <p class="py-2 px-3 text-sm bg-white w-24 rounded-lg">ShopEase</p>
-                            <h1 class="font-medium text-2xl">Fix Mobile Button Issue </h1>
-                            <p class="bg-white rounded-lg p-3 text-gray-500">Debug using Chrome DevTools,<br> check for
-                                overlapping elements</p>
+                        <!-- Card 3 -->
+                        <div class="div-container bg-[#F4F7FF] rounded-lg p-4 space-y-4">
+                            <p class="py-2 px-3 text-sm bg-white w-24 rounded-lg">SwiftPay</p>
+                            <h1 class="font-medium text-2xl">Optimize  Home page </h1>
+                            <p class="bg-white rounded-lg p-3 text-gray-500">To optimize the homepage, compress images, reduce scripts, and prioritize content for faster load times.</p>
 
                             <div class=" border-t-2 border-dashed"></div>
 
@@ -152,16 +149,15 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button class="btn complete-btn bg-[#3752FD] text-white ">Completed</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 1 -->
-                        <div class="bg-[#F4F7FF] rounded-lg p-4 space-y-4">
-                            <p class="py-2 px-3 text-sm bg-white w-24 rounded-lg">ShopEase</p>
-                            <h1 class="font-medium text-2xl">Fix Mobile Button Issue </h1>
-                            <p class="bg-white rounded-lg p-3 text-gray-500">Debug using Chrome DevTools,<br> check for
-                                overlapping elements</p>
+                        <!-- Card 4 -->
+                        <div class="div-container bg-[#F4F7FF] rounded-lg p-4 space-y-4">
+                            <p class="py-2 px-3 text-sm bg-white w-16 rounded-lg">Meta</p>
+                            <h1 class="font-medium text-2xl">Add new emoji 🤲</h1>
+                            <p class="bg-white rounded-lg p-3 text-gray-500">To add a new emoji , update the Unicode library and ensure compatibility across platforms.</p>
 
                             <div class=" border-t-2 border-dashed"></div>
 
@@ -172,16 +168,15 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button class="btn complete-btn bg-[#3752FD] text-white ">Completed</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 1 -->
-                        <div class="bg-[#F4F7FF] rounded-lg p-4 space-y-4">
-                            <p class="py-2 px-3 text-sm bg-white w-24 rounded-lg">ShopEase</p>
-                            <h1 class="font-medium text-2xl">Fix Mobile Button Issue </h1>
-                            <p class="bg-white rounded-lg p-3 text-gray-500">Debug using Chrome DevTools,<br> check for
-                                overlapping elements</p>
+                        <!-- Card 5 -->
+                        <div class="div-container bg-[#F4F7FF] rounded-lg p-4 space-y-4">
+                            <p class="py-2 px-3 text-sm bg-white w-28 rounded-lg">Google LLC</p>
+                            <h1 class="font-medium text-2xl">Integrate OpenAI API </h1>
+                            <p class="bg-white rounded-lg p-3 text-gray-500">To integrate the OpenAI API, obtain an API key, install the SDK, and implement requests.</p>
 
                             <div class=" border-t-2 border-dashed"></div>
 
@@ -192,16 +187,15 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button class="btn complete-btn bg-[#3752FD] text-white ">Completed</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 1 -->
-                        <div class="bg-[#F4F7FF] rounded-lg p-4 space-y-4">
-                            <p class="py-2 px-3 text-sm bg-white w-24 rounded-lg">ShopEase</p>
-                            <h1 class="font-medium text-2xl">Fix Mobile Button Issue </h1>
-                            <p class="bg-white rounded-lg p-3 text-gray-500">Debug using Chrome DevTools,<br> check for
-                                overlapping elements</p>
+                        <!-- Card 6 -->
+                        <div class="div-container bg-[#F4F7FF] rounded-lg p-4 space-y-4">
+                            <p class="py-2 px-3 text-sm bg-white w-24 rounded-lg">Glassdoar</p>
+                            <h1 class="font-medium text-2xl">Improve Job searching </h1>
+                            <p class="bg-white rounded-lg p-3 text-gray-500">To improve job searching, optimize filters, enhance keyword matching.</p>
 
                             <div class=" border-t-2 border-dashed"></div>
 
@@ -212,7 +206,7 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button class="btn complete-btn bg-[#3752FD] text-white ">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -220,18 +214,18 @@
                 </div>
 
                 <!-- Right Side section  -->
-                <div class="space-y-3 rounded-lg p-4 lg:w-[22%] mx-auto bg-white">
+                <div id="" class="space-y-3 rounded-lg p-4 lg:w-[22%] mx-auto bg-white">
                     <div class="flex gap-2 justify-center items-center">
                         <img class="w-4 h-4" src="assets/activity.png" alt="">
                         <h1 class="">Activity Log</h1>
                     </div>
                     <div class="flex justify-center">
-                        <button class="btn bg-[#3752FD] text-white">Clear History</button>
+                        <button id="clear-btn" class="btn bg-[#3752FD] text-white">Clear History</button>
                     </div>
                     <div class="border-t-2 border-dashed"></div>
 
-                    <div  class="bg-[#F4F7FF] p-2 rounded-lg">
-                        <small>You have Complete The Task Add Dark Mode at 12:48:15 PM</small>
+                    <div id="new-history1" class="space-y-3">
+                        <!-- <small>You have Complete The Task Add Dark Mode at 12:48:15 PM</small> -->
                     </div>
                 </div>
             </div>
@@ -243,6 +237,9 @@
     </main>
     <script src="js/script.js"></script>
     <script src="js/new.js"></script>
+    <script src="js/complete-btn.js"></script>
+    <script src="js/clear.js"></script>
+
 </body>
 
 </html>
